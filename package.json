@@ -1,0 +1,30 @@
+{
+    "name": "@hamedstack/angular-nohost",
+    "displayName": "angular-nohost",
+    "description": "A no-host component snippet for Angular 2+.",
+    "version": "1.0.0",
+    "publisher": "HamedStack",
+    "icon": "icon.png",
+    "homepage": "https://github.com/HamedStack/HamedStack.Angular.NoHost.Snippet",
+    "bugs": {
+        "url": "https://github.com/HamedStack/HamedStack.Angular.NoHost.Snippet/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/HamedStack/HamedStack.Angular.NoHost.Snippet"
+    },
+    "engines": {
+        "vscode": "^1.62.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "typescript",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}
